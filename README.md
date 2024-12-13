@@ -87,12 +87,29 @@ After successful compilation it the output should be as follows
 After successful compilation it the output should be as follows
 ![Screenshot 2024-12-13 123658](https://github.com/user-attachments/assets/0326ff3b-b080-4575-8434-4c72c189e929)
 
-#### x)
+#### x)Then we open a new terminal and type the following command to display the floorplan image(some changes in command is required) :
+       eog designs/picorv32a/runs/{press tab as it varies from device to device}/results/floorplan/picorv32a.floorplan.def.png
+The .png file is as follows
+![Screenshot 2024-12-13 124009](https://github.com/user-attachments/assets/aa4d7457-d604-4e1a-8984-f86317b5e79b)
+
+####  xi)For the placement stage of the digital ASIC design flow we use the following command 
+          run_placement
+After successful compilation it the output should be as follows
+![Screenshot 2024-12-13 140631](https://github.com/user-attachments/assets/827edf90-fa8a-4922-96a9-33ee3aaecd52)
 
 
+#### xii)Then we open a new terminal and type the following command to display the placement image(some changes in command is required)
+        eog designs/picorv32a/runs/{press tab as it varies from device to device}/results/placement/picorv32a.placement.def.png
+The .png file is as follows
+![Screenshot 2024-12-13 140740](https://github.com/user-attachments/assets/369b6298-c4c9-4636-bbf7-a4955839fece)
 
+#### xiii)Then we run the command n the OpenLane flow stands for Clock Tree Synthesis (CTS), and its purpose is to create a clock distribution network for your design.
+          run_cts
+After successful compilation it the output should be as follows
+![Screenshot 2024-12-13 141938](https://github.com/user-attachments/assets/9352cb35-c83e-4c02-942e-1b14e79411b5)
 
-
-
+#### xiv)Once CTS is complete, the next step is routing. This is where the tool connects all the cells using metal layers, creating the physical interconnections that make up the logic and clock paths of the design.We do this by running the following code:
+                                          run_route
+![Screenshot 2024-12-13 145414](https://github.com/user-attachments/assets/8290646b-c6fc-471b-b668-8fa568dd4539)
 
        
