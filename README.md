@@ -63,4 +63,36 @@ Which after runing code looks something like the following image :
 
 ![Screenshot 2024-12-13 110821](https://github.com/user-attachments/assets/2f318c23-0cb6-4f29-ab0a-6d691867fa50)
 
-#### v)We then change the directory to the openlane which is an open-source framework used for the automated physics
+#### v)We then change the directory to the openlane using following command which is an open-source framework used for the automated physical design of ICs.
+    cd Desktop/work/tools/openlane_working_dir/openlane
+Which after succesful completion should look like the following image:
+![Screenshot 2024-12-13 121210](https://github.com/user-attachments/assets/f97fc1c1-8eb4-4067-bc30-91fc3340da1c)
+
+
+#### vi)Then we specify the version to 0.9 by the following command 
+        package require openlane 0.9
+
+#### vii)Then we prepare the design workspace for a specific project which in our case is picorv32a using the following command
+         prep -design picorv32a
+After successful compilation it the output should be as follows
+![Screenshot 2024-12-13 121803](https://github.com/user-attachments/assets/0ab8962c-e3f6-434a-923c-3aea009e4880)
+
+#### viii)Then we trigger the synthesis stage of the digital IC design flow by using the following command
+           run_synthesis
+After successful compilation it the output should be as follows
+![Screenshot 2024-12-13 122526](https://github.com/user-attachments/assets/bdeb24ce-b318-46bf-8cf4-b9735d939a50)
+
+#### ix)Then we execute the floorplanning state of the IC design flow .It is a crucial step in translating the synthesized gate-level netlist into a physical design by defining the chip's layout structure and preparing it for placement and routing.This was done by executing the following command
+        run_floorplan
+After successful compilation it the output should be as follows
+![Screenshot 2024-12-13 123658](https://github.com/user-attachments/assets/0326ff3b-b080-4575-8434-4c72c189e929)
+
+#### x)
+
+
+
+
+
+
+
+       
