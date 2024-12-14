@@ -1,6 +1,6 @@
 # SSSIHL-ROADSHOW
 
-Welcome to my **SSSIHL-ROADSHOW** project! This repository showcases the work I completed as part of the **SSSIHL-ROADSHOW** workshop. The project focuses on creating an **interactive experience** that highlights the events, achievements, and educational programs of **SSSIHL** through a **virtual platform**.
+Welcome to my **SSSIHL-ROADSHOW** project! This repository showcases the work I completed as part of the **SSSIHL-ROADSHOW** workshop. The project focuses on creating an **interactive experience** that highlights the events, achievements, and educational programs of **SSSIHL** by providing ** platform**.
 
 ## Project Overview
 
